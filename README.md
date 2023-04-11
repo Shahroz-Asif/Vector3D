@@ -1,5 +1,6 @@
 # Vector3D
 A modern minimalist vector graphing application
+
 ![Preview of application](./assets/application_demo.gif)
 
 ## ✨ Getting Started
