@@ -1,7 +1,7 @@
 # Vector3D
 A modern minimalist vector graphing application
 
-![Preview of application](./assets/application_demo.gif)
+https://user-images.githubusercontent.com/118912963/231451331-a9564758-82b4-49bc-a41c-a896fca9df7e.mp4
 
 ## ✨ Getting Started
 Clone the source code to your machine:
