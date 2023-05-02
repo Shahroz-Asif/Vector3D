@@ -8,7 +8,7 @@ from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationTool
 from matplotlib.figure import Figure
 
 from config import window, frames, buttons, labels, colors, graph, entries, texts
-from lib.Arrow3D import Arrow3D
+from utils.Arrow3D import Arrow3D
 
 ctk.set_appearance_mode("dark")
 
