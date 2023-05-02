@@ -1,7 +1,7 @@
 window = {
     "dimensions": {
         "width": 600,
-        "height": 700
+        "height": 650
     }
 }
 
@@ -9,8 +9,7 @@ texts = {
     "title": "Vector3D",
     "dp_text": "Dot Product of provided vectors:",
     "dp_value": "No vectors provided!",
-    "button": "PLOT",
-    "credits": "Credits to Shahroz Asif, Saad Ehsan and Mubashir Abid"
+    "button": "PLOT"
 }
 
 colors = {

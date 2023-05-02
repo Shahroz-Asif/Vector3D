@@ -79,10 +79,9 @@ class Vector3DApplication(ctk.CTk):
         self.maxsize(**window["dimensions"])
         self.minsize(**window["dimensions"])
 
-        grid_configure(self, rows=5, columns=1)
+        grid_configure(self, rows=4, columns=1)
 
         self.title_frame = VectorTitleFrame(self)
-        self.credits_frame = CreditsFrame(self)
 
         self.product_frame = VectorProductFrame(self)
         self.graph_frame = VectorGraphFrame(self)
@@ -103,7 +102,6 @@ class Vector3DApplication(ctk.CTk):
         self.input_frame.grid(row=1, column=0, **frames["input"])
         self.product_frame.grid(row=2, column=0, **frames["product"])
         self.graph_frame.grid(row=3, column=0, **frames["graph"])
-        self.credits_frame.grid(row=4, column=0, **frames["credits"])
 
 
 class VectorTitleFrame(ctk.CTkFrame):
@@ -114,16 +112,6 @@ class VectorTitleFrame(ctk.CTkFrame):
 
         self.title_label = ctk.CTkLabel(self, text=texts["title"], font=("Arial", 40), pady=20)
         self.title_label.grid(row=0, column=0)
-
-
-class CreditsFrame(ctk.CTkFrame):
-    def __init__(self, master, *args, **kwargs):
-        super().__init__(master, *args, **kwargs)
-
-        grid_configure(self, rows=1, columns=1)
-
-        self.credits_label = ctk.CTkLabel(self, text=texts["credits"], font=("Arial", 10), pady=10, text_color="#aaa")
-        self.credits_label.grid(row=0, column=0)
 
 
 class VectorInputField(ctk.CTkFrame):
